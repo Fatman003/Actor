@@ -17,7 +17,7 @@ THEANORC="/content/Actor/config/theano.rc:/content/.theanorc"
 
 #export PYTHONPATH=$LVSR:$PYTHONPATH
 import sys
-sys.path.insert(1, "/content/Actor")
+os.environ['PYTHONPATH'] += ":/content/Actor"
 
 #export PATH=$LVSR/bin:$PATH
 import os
