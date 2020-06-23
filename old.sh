@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # The directory where the script is
-export LVSR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+LVSR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # For PyFST
 if [ -n "$KALDI_ROOT" ];
