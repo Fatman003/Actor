@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # The directory where the script is
-%set_env LVSR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+#%set_env LVSR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+%set_env LVSR=/content/Actor
 
 # For PyFST
 if [ -n "$KALDI_ROOT" ];
